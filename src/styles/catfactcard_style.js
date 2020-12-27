@@ -1,16 +1,16 @@
-import { StylesSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 
-const catfactcard_style = StylesSheet.create({
+const catfactcard_style = StyleSheet.create({
     container: {
         backgroundColor: 'white',
         padding: 10,
         margin: 10,
         borderRadius: 10,
     },
-    title: {
-        fontSize: 25,
-        fontWeight: 'bold',
+    text: {
+        marginTop: 5,
         textAlign: 'center',
+        fontSize: 12,
     },
 })
 
